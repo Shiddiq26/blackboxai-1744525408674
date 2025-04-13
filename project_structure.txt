@@ -1,0 +1,29 @@
+Project Structure for Construction Quality Tracking Web Application:
+
+1. /project
+   ├── /frontend
+   │   ├── /public
+   │   │   ├── index.html
+   │   │   └── favicon.ico
+   │   ├── /src
+   │   │   ├── App.js
+   │   │   ├── index.js
+   │   │   ├── /components
+   │   │   │   ├── Dashboard.js
+   │   │   │   ├── InspectionForm.js
+   │   │   │   └── Reports.js
+   │   │   ├── /styles
+   │   │   │   └── App.css
+   │   │   └── /utils
+   │   │       └── api.js
+   │   └── package.json
+   ├── /backend
+   │   ├── app.py
+   │   ├── /models
+   │   │   └── quality_issue.py
+   │   ├── /routes
+   │   │   └── quality.py
+   │   ├── /utils
+   │   │   └── logger.py
+   │   └── requirements.txt
+   └── README.md
